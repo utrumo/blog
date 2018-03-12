@@ -41,6 +41,13 @@
         </tr>
       @endforelse
     </tbody>
+    <tfoot>
+      <td colspan="3">
+        <ul class="pagination pull-right">
+          {{$categories->links()}}
+        </ul>
+      </td>
+    </tfoot>
   </table>
 </div>
 
